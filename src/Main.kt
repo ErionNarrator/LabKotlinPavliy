@@ -34,7 +34,7 @@ fun main() {
     //имеет значение 1, в противном случае — 0. Определить общее число свобод-
     //ных мест в зрительном зале.
 
-    val rows = 24
+    val rows = 23
     val clos = 40
 
     val  arr = Array(rows) { IntArray(clos) {(0..1).random()} }
